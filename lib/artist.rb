@@ -26,6 +26,8 @@ class Artist
   #def self.count
     #self.all.count
  # end
+ 
+  extend memorable 
 
   def add_song(song)
     @songs << song
