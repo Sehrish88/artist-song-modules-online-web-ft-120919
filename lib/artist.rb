@@ -44,4 +44,5 @@ class Artist
     name.downcase.gsub(' ', '-')
   end
 end
-puts artist.clear
+puts artist.reset_all
+puts artist.
