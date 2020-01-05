@@ -33,3 +33,4 @@ class Song
     name.downcase.gsub(' ', '-')
   end
 end
+puts song.clear
