@@ -45,4 +45,4 @@ class Artist
   end
 end
 puts artist.reset_all
-puts artist.
+puts artist.count 
